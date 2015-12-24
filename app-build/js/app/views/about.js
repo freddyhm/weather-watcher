@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone"],function(e,t,n){"use strict";var r=n.View.extend({initialize:function(){},render:function(){var e="<h3>About page</h3>";return this.$el.html(e),this}});return r});

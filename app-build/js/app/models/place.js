@@ -1,0 +1,1 @@
+define(["backbone"],function(e){"use strict";var t=e.Model.extend({defaults:{countryCode:"",name:""}});return t});

@@ -1,0 +1,1 @@
+define(["app/views/app","app/routers/router","app/models/app"],function(e,t,n){"use strict";var r="content",i=function(){var r=new n({id:1}),i=new e({model:r});$("body").append(i.render().el);var s=new t(i);Backbone.history.start(),r.fetch()};return{initialize:i}});

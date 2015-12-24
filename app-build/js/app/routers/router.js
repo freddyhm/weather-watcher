@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone"],function(e,t,n){"use strict";var r=n.Router.extend({routes:{"":"goToDash",dash:"goToDash","dash/:place":"goToDash",about:"goToAbout"},initialize:function(e){this.appView=e},goToDash:function(e){this.appView.setPage("dash"),e&&alert("Weather detail for "+e)},goToAbout:function(){this.appView.setPage("about")}});return r});
